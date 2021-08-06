@@ -563,7 +563,7 @@ body {
         color: black;
         padding-left: 40vw;
         padding-right: 0vw;
-        padding-top: 16vw;
+        padding-top: 9vw;
     }
 
     .info-div3-title1 span {
@@ -634,7 +634,7 @@ body {
         color: black;
         padding-left: 10vw;
         padding-right: 5vw;
-        padding-top: 15vh;
+        padding-top: 10vh;
     }
 
     .info-div3-title2 span {
@@ -673,11 +673,11 @@ body {
 
     .info-div3-title3 {
         font-family: Poppins-Bold;
-        font-size: 5vw;
+        font-size: 4.2vw;
         color: black;
         padding-left: 35vw;
         padding-right: 5vw;
-        padding-top: 35vw;
+        padding-top: 10vh;
     }
 
     .info-div3-title3 span {
@@ -1534,7 +1534,20 @@ body {
 .floating1 img {
     width: 225px;
     height: auto;
+}
 
+@media screen and (max-width: 992px) {
+    .floating1 {
+        position: absolute;
+        margin-top: 5vh;
+        margin-bottom: 75vh;
+        padding-right: 95vw;
+    }
+    
+    .floating1 img {
+        width: 120px;
+        height: auto;
+    }
 }
 
 /* ---------------------------------- */
@@ -1549,5 +1562,75 @@ body {
 .floating2 img {
     width: 190px;
     height: auto;
-
 }
+
+@media screen and (max-width: 992px) {
+    .floating2 {
+        position: absolute;
+        margin-top: 5vh;
+        margin-bottom: 75vh;
+        padding-right: 95vw;
+    }
+    
+    .floating2 img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+/* ---------------------------------- */
+
+.floating3 {
+    position: absolute;
+    margin-top: 0vh;
+    margin-bottom: 45vh;
+    padding-left: 80vw;
+}
+
+.floating3 img {
+    width: 100px;
+    height: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .floating3 {
+        position: absolute;
+        margin-top: 50vh;
+        margin-bottom: 0vh;
+        padding-right: 95vw;
+    }
+    
+    .floating3 img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+/* ---------------------------------- */
+
+.floating4 {
+    position: absolute;
+    margin-top: 50vh;
+    margin-bottom: 0vh;
+    margin-right: 70vw;
+}
+
+.floating4 img {
+    width: 150px;
+    height: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .floating4 {
+        position: absolute;
+        margin-top: 50vh;
+        margin-bottom: 0vh;
+        padding-right: 50vw;
+    }
+    
+    .floating4 img {
+        width: 80px;
+        height: auto;
+    }
+}
+
