@@ -531,17 +531,24 @@ body {
 /* ---------------------------------- */
 
 @media screen and (max-width: 992px) {
+    #div3 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
     #info-div3-box1 {
         margin: 0;
         display: flex;
-        padding-bottom: 50px;
+        align-items: center;
+        justify-content: center;
     }
 
     #info-div3-box1 img {
-        width: 100vw;
+        width: 100%;
         position: absolute;
         height: 100%;
         object-fit: contain;
+        padding: 0px;
     }
 
     .info-div3-section1 {
@@ -552,11 +559,11 @@ body {
 
     .info-div3-title1 {
         font-family: Poppins-Bold;
-        font-size: 5vw;
+        font-size: 6vw;
         color: black;
-        padding-left: 35vw;
-        padding-right: 5vw;
-        padding-top: 8vw;
+        padding-left: 40vw;
+        padding-right: 0vw;
+        padding-top: 16vw;
     }
 
     .info-div3-title1 span {
@@ -565,10 +572,10 @@ body {
 
     .info-div3-text1 {
         font-family: Poppins-Regular;
-        font-size: 2.3vw;
+        font-size: 3.2vw;
         color: black;
-        padding-left: 28vw;
-        padding-right: 5vw;
+        padding-left: 32vw;
+        padding-right: 2vw;
         padding-bottom: 1vh;
     }
 
@@ -583,9 +590,8 @@ body {
         width: 35%;
         height: 100%;
         object-fit: contain;
-        padding-top: 20vh;
+        padding-top: 10vh;
         margin-left: 50vw;
-        padding-right: 5vw;
     }
 
     /* ---------------------------------- */
