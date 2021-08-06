@@ -215,14 +215,23 @@ body {
 /* ---------------------------------- */
 
 @media screen and (max-width: 992px) {
+    #div2 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .divide {
+        padding-top: 5px;
+    }
+
     #info-div2-box1 {
         margin: 0;
         display: flex;
-        padding-bottom: 50px;
+        position: relative;
     }
 
     #info-div2-box1 img {
-        width: 100vw;
+        width: 100%;
         position: absolute;
         height: 100%;
         object-fit: contain;
@@ -231,16 +240,16 @@ body {
     .info-div2-section1 {
         padding-left: 0vw;
         padding-right: 0vw;
-        padding-top: 5vh;
+        padding-top: 0vh;
     }
 
     .info-div2-title1 {
         font-family: Poppins-Bold;
-        font-size: 3vw;
+        font-size: 5vw;
         color: white;
         padding-left: 35vw;
         padding-right: 5vw;
-        padding-top: 20vw;
+        padding-top: 10vh;
     }
 
     .info-div2-title1 span {
@@ -250,11 +259,11 @@ body {
 
     .info-div2-text1 {
         font-family: Poppins-Regular;
-        font-size: 2.3vw;
+        font-size: 3vw;
         color: white;
         padding-left: 28vw;
         padding-right: 5vw;
-        padding-bottom: 1vh;
+        padding-bottom: 8vh;
     }
 
     /* ---------------------------------- */
@@ -262,13 +271,15 @@ body {
     #info-div2-box2 {
         margin: 0;
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #info-div2-box2 img {
         width: 75%;
         height: 100%;
         object-fit: contain;
-        padding-left: 125px;
+        padding: 1vw;
     }
 
     /* ---------------------------------- */
@@ -278,23 +289,23 @@ body {
     }
 
     #info-div2-box3 img {
-        width: 70%;
-        height: 100%;
+        width: 80%;
+        height: auto;
         object-fit: contain;
-        padding-top: 10vh;
-        padding-left: 30vw;
-        padding-bottom: 10vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 25vw;
     }
 
     /* ---------------------------------- */
     #info-div2-box4 {
         margin: 0;
         display: flex;
-        padding-bottom: 50px;
+        position: relative;
     }
 
     #info-div2-box4 img {
-        width: 100vw;
+        width: 100%;
         position: absolute;
         height: 100%;
         object-fit: contain;
@@ -308,11 +319,11 @@ body {
 
     .info-div2-title2 {
         font-family: Poppins-Bold;
-        font-size: 3vw;
+        font-size: 4.5vw;
         color: white;
-        padding-left: 12vw;
+        padding-left: 8vw;
         padding-right: 5vw;
-        padding-top: 8vw;
+        padding-top: 16vw;
     }
 
     .info-div2-title2 span {
@@ -322,7 +333,7 @@ body {
 
     .info-div2-text2 {
         font-family: Poppins-Regular;
-        font-size: 2.3vw;
+        font-size: 3vw;
         color: white;
         padding-left: 12vw;
         padding-right: 28vw;
@@ -633,6 +644,7 @@ body {
         padding-right: 28vw;
         padding-bottom: 1vh;
     }
+
     /* ---------------------------------- */
 
     #info-div3-box5 {
@@ -675,6 +687,7 @@ body {
         padding-right: 5vw;
         padding-bottom: 1vh;
     }
+
     /* ---------------------------------- */
 
     #info-div3-box6 {
@@ -805,6 +818,7 @@ body {
     height: 100%;
     object-fit: contain;
 }
+
 /* ---------------------------------- */
 
 #info-div5-box2 {
@@ -984,7 +998,7 @@ body {
         padding-top: 5vh;
         padding-bottom: 10vh;
     }
-    
+
     .info-div6-title1 {
         font-family: Poppins-Bold;
         font-size: 5vw;
@@ -994,15 +1008,15 @@ body {
         padding-right: 5vw;
         padding-top: 5vw;
     }
-    
+
     .info-div6-title1 span {
         color: #F22142;
     }
-    
+
     .info-div6-text1 span {
         color: #F22142;
     }
-    
+
     .info-div6-text1 {
         font-family: Poppins-Regular;
         font-size: 4vw;
@@ -1311,10 +1325,10 @@ body {
     padding-right: 95vw;
 }
 
-.floating1 img{
+.floating1 img {
     width: 225px;
     height: auto;
-    
+
 }
 
 /* ---------------------------------- */
@@ -1326,8 +1340,8 @@ body {
     padding-left: 75vw;
 }
 
-.floating2 img{
+.floating2 img {
     width: 190px;
     height: auto;
-    
+
 }
