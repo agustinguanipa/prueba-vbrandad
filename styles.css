@@ -554,7 +554,7 @@ body {
     .info-div3-section1 {
         padding-left: 0vw;
         padding-right: 0vw;
-        padding-top: 5vh;
+        padding-top: 1vh;
     }
 
     .info-div3-title1 {
@@ -590,7 +590,7 @@ body {
         width: 35%;
         height: 100%;
         object-fit: contain;
-        padding-top: 10vh;
+        padding-top: 5vh;
         margin-left: 50vw;
     }
 
@@ -601,41 +601,40 @@ body {
     }
 
     #info-div3-box3 img {
-        width: 55%;
+        width: 75%;
         height: 100%;
         object-fit: contain;
-        margin-left: 35vw;
-        padding-top: 10vh;
-        padding-bottom: 3vh;
+        margin-left: 25vw;
+        padding-bottom: 0px;
     }
 
     /* ---------------------------------- */
     #info-div3-box4 {
         margin: 0;
         display: flex;
-        padding-bottom: 50px;
     }
 
     #info-div3-box4 img {
-        width: 100vw;
+        width: 100%;
         position: absolute;
         height: 100%;
         object-fit: contain;
+        padding: 0px;
     }
 
     .info-div3-section2 {
         padding-left: 0vw;
         padding-right: 0vw;
-        padding-top: 5vh;
+        padding-top: 0vh;
     }
 
     .info-div3-title2 {
         font-family: Poppins-Bold;
-        font-size: 5vw;
+        font-size: 6vw;
         color: black;
-        padding-left: 12vw;
+        padding-left: 10vw;
         padding-right: 5vw;
-        padding-top: 8vw;
+        padding-top: 15vh;
     }
 
     .info-div3-title2 span {
@@ -644,11 +643,11 @@ body {
 
     .info-div3-text2 {
         font-family: Poppins-Regular;
-        font-size: 2.3vw;
+        font-size: 2.5vw;
         color: black;
-        padding-left: 12vw;
-        padding-right: 28vw;
-        padding-bottom: 1vh;
+        padding-left: 10vw;
+        padding-right: 24vw;
+        padding-bottom: 4vh;
     }
 
     /* ---------------------------------- */
@@ -669,7 +668,7 @@ body {
     .info-div3-section3 {
         padding-left: 0vw;
         padding-right: 0vw;
-        padding-top: 5vh;
+        padding-top: 0vw;
     }
 
     .info-div3-title3 {
@@ -678,7 +677,7 @@ body {
         color: black;
         padding-left: 35vw;
         padding-right: 5vw;
-        padding-top: 8vw;
+        padding-top: 35vw;
     }
 
     .info-div3-title3 span {
@@ -687,11 +686,10 @@ body {
 
     .info-div3-text3 {
         font-family: Poppins-Regular;
-        font-size: 2.3vw;
+        font-size: 2.5vw;
         color: black;
         padding-left: 28vw;
         padding-right: 5vw;
-        padding-bottom: 1vh;
     }
 
     /* ---------------------------------- */
@@ -702,10 +700,10 @@ body {
     }
 
     #info-div3-box6 img {
-        width: 60%;
+        width: 75%;
         height: 100%;
         object-fit: contain;
-        padding-left: 15vw;
+        padding-left: 5vw;
     }
 
     /* ---------------------------------- */
@@ -742,6 +740,11 @@ body {
 
 /* ---------------------------------- */
 
+#div4 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
 #div4 h1 {
     font-family: Poppins-Bold;
     padding-bottom: 25px;
@@ -765,7 +768,7 @@ body {
 @media screen and (max-width: 992px) {
     #div4 h1 {
         font-family: Poppins-Bold;
-        font-size: 58px;
+        font-size: 42px;
         padding: 0rem 3rem;
         display: flex;
         align-items: center;
@@ -777,7 +780,7 @@ body {
     #div4 p {
         padding: 2rem 3rem;
         font-family: Poppins-Regular;
-        font-size: 36px;
+        font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
